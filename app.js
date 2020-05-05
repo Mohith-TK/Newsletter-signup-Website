@@ -12,10 +12,6 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + "/signup.html");
 });
 
-//ed7b02a666efefb2eecc5d89f7134b4b-us8
-
-//ff93df75cc
-
 app.post("/", function (req, res) {
   const firstName = req.body.fName;
   const lastName = req.body.lName;
@@ -65,7 +61,3 @@ app.post("/failure", function (req, res) {
 app.listen(process.env.PORT || 3000, function () {
   console.log("Website hosted at port 3000");
 });
-
-//ed7b02a666efefb2eecc5d89f7134b4b-us8
-
-//ff93df75cc
